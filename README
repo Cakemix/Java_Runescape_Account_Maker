@@ -1,0 +1,16 @@
+Makes Runescape accounts, prints out if error or success.
+
+ [ - :: Account Creater :: - ]
+   ^- Email    - qbbrfyks@gmail.com
+   ^- Age      - 24
+   ^- Password - sicritpassword
+   ^- Proxy    - 218.247.129.4:80
+   ^- Output   - Success
+   
+ [ - :: Account Creater :: - ]
+   ^- Email    - cbqtekb@live.com
+   ^- Age      - 23
+   ^- Password - sicritpassword
+   ^- Output   - BLOCKED
+
+   
