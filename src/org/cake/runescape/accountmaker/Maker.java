@@ -18,8 +18,8 @@ public class Maker implements Constants {
 	public int register(String email, String password, int age, String proxyIp, String proxyPort) throws IOException {
 
 		if (!proxyIp.isEmpty()) {
-			System.setProperty("http.proxyHost", "192.168.5.1");
-			System.setProperty("http.proxyPort", "1080");
+			System.setProperty("http.proxyHost", proxyIp);
+			System.setProperty("http.proxyPort", proxyPort);
 		}
 
 		Connection connect = Jsoup.connect("https://secure.runescape.com/m=account-creation/");
